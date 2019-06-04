@@ -406,6 +406,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/ali/proprietary/etc/permissions/com.motorola.omadm.sprint.xml:system/etc/permissions/com.motorola.omadm.sprint.xml \
     vendor/motorola/ali/proprietary/etc/permissions/com.motorola.omadm.vzw.xml:system/etc/permissions/com.motorola.omadm.vzw.xml \
     vendor/motorola/ali/proprietary/etc/permissions/org.codeaurora.ims.xml:system/etc/permissions/org.codeaurora.ims.xml \
+    vendor/motorola/ali/proprietary/vendor/etc/wifi/WCNSS_qcom_wlan_nv.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_wlan_nv.bin \
+    vendor/motorola/ali/proprietary/vendor/etc/wifi/WCNSS_qcom_wlan_nv_Argentina.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_wlan_nv_Argentina.bin \
+    vendor/motorola/ali/proprietary/vendor/etc/wifi/WCNSS_qcom_wlan_nv_Brazil.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_wlan_nv_Brazil.bin \
+    vendor/motorola/ali/proprietary/vendor/etc/wifi/WCNSS_qcom_wlan_nv_India.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_wlan_nv_India.bin \
+    vendor/motorola/ali/proprietary/vendor/etc/wifi/WCNSS_qcom_wlan_nv_epa.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_wlan_nv_epa.bin \
+    vendor/motorola/ali/proprietary/vendor/etc/wifi/WCNSS_qcom_wlan_nv_epa.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_wlan_nv_epa.bin \
+    vendor/motorola/ali/proprietary/vendor/etc/wifi/WCNSS_wlan_dictionary.dat:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_wlan_dictionary.dat \
     vendor/motorola/ali/proprietary/vendor/bin/charge_only_mode:$(TARGET_COPY_OUT_VENDOR)/bin/charge_only_mode \
     vendor/motorola/ali/proprietary/vendor/bin/energy-awareness:$(TARGET_COPY_OUT_VENDOR)/bin/energy-awareness \
     vendor/motorola/ali/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_vid_auo_1080p_565.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_vid_auo_1080p_565.xml \
