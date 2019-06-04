@@ -385,6 +385,7 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentXGoogleCS47L35 \
     SprintDM \
     MotCamera2 \
+    ims \
     qcrilmsgtunnel \
     QtiTelephonyService \
     TimeService \
