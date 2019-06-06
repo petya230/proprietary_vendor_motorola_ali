@@ -406,6 +406,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/ali/proprietary/etc/permissions/com.motorola.omadm.sprint.xml:system/etc/permissions/com.motorola.omadm.sprint.xml \
     vendor/motorola/ali/proprietary/etc/permissions/com.motorola.omadm.vzw.xml:system/etc/permissions/com.motorola.omadm.vzw.xml \
     vendor/motorola/ali/proprietary/etc/permissions/org.codeaurora.ims.xml:system/etc/permissions/org.codeaurora.ims.xml \
+    vendor/motorola/ali/proprietary/vendor/etc/wifi/WCNSS_cfg.dat:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_cfg.dat \
     vendor/motorola/ali/proprietary/vendor/etc/wifi/WCNSS_qcom_wlan_nv.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_wlan_nv.bin \
     vendor/motorola/ali/proprietary/vendor/etc/wifi/WCNSS_qcom_wlan_nv_Argentina.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_wlan_nv_Argentina.bin \
     vendor/motorola/ali/proprietary/vendor/etc/wifi/WCNSS_qcom_wlan_nv_Brazil.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_wlan_nv_Brazil.bin \
