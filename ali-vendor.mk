@@ -632,9 +632,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/ali/proprietary/vendor/lib/libremosaic_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaic_daemon.so
 
 
-#wlan
-#PRODUCT_COPY_FILES += \
-#    vendor/motorola/ali/proprietary/vendor/lib/modules/wlan.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wlan.ko
+# wlan
+PRODUCT_COPY_FILES += \
+    vendor/motorola/ali/proprietary/vendor/lib/modules/wlan.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wlan.ko
 
 #Keymaster
 PRODUCT_COPY_FILES += \
