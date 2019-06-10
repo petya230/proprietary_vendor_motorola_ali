@@ -557,6 +557,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/ali/proprietary/vendor/lib/libmmcamera_ar1335.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ar1335.so \
     vendor/motorola/ali/proprietary/vendor/lib/libmmcamera_dcrf_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dcrf_lib.so \
     vendor/motorola/ali/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_chromaflash_lib.so \
+    vendor/motorola/ali/proprietary/vendor/lib/libmmcamera_mot_s5k3p8sp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_s5k3p8sp.so \
     vendor/motorola/ali/proprietary/vendor/lib/libmmcamera_dbg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dbg.so \
     vendor/motorola/ali/proprietary/vendor/lib/libmmcamera_dummyalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dummyalgo.so \
     vendor/motorola/ali/proprietary/vendor/lib/libmmcamera_eebinparse.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eebinparse.so \
