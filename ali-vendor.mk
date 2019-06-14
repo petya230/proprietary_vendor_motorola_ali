@@ -73,6 +73,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/ali/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice \
     vendor/motorola/ali/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-qti \
     vendor/motorola/ali/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.1-service.widevine \
+    vendor/motorola/ali/proprietary/vendor/bin/hw/motorola.hardware.camera.imgtuner@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/motorola.hardware.camera.imgtuner@1.0-service \
+    vendor/motorola/ali/proprietary/vendor/bin/hw/motorola.hardware.camera.provider@2.4-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/motorola.hardware.camera.provider@2.4-service \
     vendor/motorola/ali/proprietary/vendor/bin/hw/qcrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/qcrild \
     vendor/motorola/ali/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.display.color@1.0-service \
     vendor/motorola/ali/proprietary/vendor/bin/hw/vendor.qti.gnss@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.gnss@1.0-service \
@@ -139,6 +141,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/ali/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
     vendor/motorola/ali/proprietary/vendor/etc/init/vendor.qti.gnss@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.gnss@1.0-service.rc \
     vendor/motorola/ali/proprietary/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc \
+    vendor/motorola/ali/proprietary/vendor/etc/init/motorola.hardware.camera.imgtuner@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.camera.imgtuner@1.0-service.rc \
+    vendor/motorola/ali/proprietary/vendor/etc/init/motorola.hardware.camera.provider@2.4-service_delayed.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.camera.provider@2.4-service_delayed.rc \
     vendor/motorola/ali/proprietary/vendor/firmware/a225_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225_pfp.fw \
     vendor/motorola/ali/proprietary/vendor/firmware/a225_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225_pm4.fw \
     vendor/motorola/ali/proprietary/vendor/firmware/a225p5_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225p5_pm4.fw \
@@ -171,6 +175,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/ali/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/motorola/ali/proprietary/vendor/lib/hw/gatekeeper.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.msm8953.so \
     vendor/motorola/ali/proprietary/vendor/lib/hw/keystore.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.msm8953.so \
+    vendor/motorola/ali/proprietary/vendor/lib/hw/motorola.hardware.camera.imgtuner@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/motorola.hardware.camera.imgtuner@1.0-impl.so \
+    vendor/motorola/ali/proprietary/vendor/lib/hw/motorola.hardware.camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/motorola.hardware.camera.provider@2.4-impl.so \
     vendor/motorola/ali/proprietary/vendor/lib/hw/vendor.qti.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.gnss@1.0-impl.so \
     vendor/motorola/ali/proprietary/vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so \
     vendor/motorola/ali/proprietary/vendor/lib/hw/vulkan.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.msm8953.so \
@@ -320,6 +326,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/ali/proprietary/vendor/lib/libwms.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwms.so \
     vendor/motorola/ali/proprietary/vendor/lib/libwqe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwqe.so \
     vendor/motorola/ali/proprietary/vendor/lib/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxml.so \
+    vendor/motorola/ali/proprietary/vendor/lib/motcamera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/motcamera.device@1.0-impl.so \
+    vendor/motorola/ali/proprietary/vendor/lib/motorola.hardware.camera.device@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.camera.device@1.0_vendor.so \
+    vendor/motorola/ali/proprietary/vendor/lib/motorola.hardware.camera.imgtuner@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.camera.imgtuner@1.0.so \
+    vendor/motorola/ali/proprietary/vendor/lib/motorola.hardware.camera.provider@2.4_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.camera.provider@2.4_vendor.so \
     vendor/motorola/ali/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/motorola/ali/proprietary/vendor/lib/qcrild_librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/qcrild_librilutils.so \
     vendor/motorola/ali/proprietary/vendor/lib/sensor_calibrate.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensor_calibrate.so \
