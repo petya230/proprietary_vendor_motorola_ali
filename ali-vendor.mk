@@ -387,6 +387,7 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne.server@2.1 \
     com.quicinc.cne.server@2.2 \
     libdsi_netctrl \
+    uceShimService \
     libgpustats \
     libqmi_cci \
     libqmi_common_so \
