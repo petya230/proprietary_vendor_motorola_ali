@@ -489,9 +489,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/ali/proprietary/etc/permissions/com.motorola.camera2.xml:system/etc/permissions/com.motorola.camera2.xml \
     vendor/motorola/ali/proprietary/etc/permissions/com.motorola.camera2.denali.xml:system/etc/permissions/com.motorola.camera2.denali.xml \
     vendor/motorola/ali/proprietary/etc/permissions/com.motorola.omadm.service.xml:system/etc/permissions/com.motorola.omadm.service.xml \
-    vendor/motorola/ali/proprietary/etc/permissions/com.motorola.omadm.sprint.xml:system/etc/permissions/com.motorola.omadm.sprint.xml \
-    vendor/motorola/ali/proprietary/etc/permissions/com.motorola.omadm.vzw.xml:system/etc/permissions/com.motorola.omadm.vzw.xml \
     vendor/motorola/ali/proprietary/etc/permissions/org.codeaurora.ims.xml:system/etc/permissions/org.codeaurora.ims.xml \
+    vendor/motorola/ali/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/motorola/ali/proprietary/vendor/etc/wifi/WCNSS_qcom_wlan_nv.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_wlan_nv.bin \
     vendor/motorola/ali/proprietary/vendor/etc/wifi/WCNSS_qcom_wlan_nv_Argentina.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_wlan_nv_Argentina.bin \
     vendor/motorola/ali/proprietary/vendor/etc/wifi/WCNSS_qcom_wlan_nv_Brazil.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_wlan_nv_Brazil.bin \
