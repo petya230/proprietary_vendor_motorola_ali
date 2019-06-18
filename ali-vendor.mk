@@ -464,6 +464,7 @@ PRODUCT_PACKAGES += \
     CNEService \
     ConnMOStub \
     DCMOStub \
+    DiagMon \
     DMService \
     HiddenMenuLight \
     HotwordEnrollmentOKGoogleCS47L35 \
