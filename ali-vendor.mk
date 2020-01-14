@@ -720,8 +720,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/ali/proprietary/vendor/lib/libqti-perfd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-perfd-client.so \
     vendor/motorola/ali/proprietary/vendor/lib/libremosaic_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaic_daemon.so \
     vendor/motorola/ali/proprietary/vendor/lib/motorola.hardware.wifi.supplicant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.wifi.supplicant@1.0.so \
-    vendor/motorola/ali/proprietary/vendor/lib/motorola.hardware.wifi.supplicant@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.wifi.supplicant@1.0_vendor.so
-
+    vendor/motorola/ali/proprietary/vendor/lib/motorola.hardware.wifi.supplicant@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.wifi.supplicant@1.0_vendor.so \
+    vendor/motorola/ali/proprietary/vendor/lib/libpuresoftkeymasterdevice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpuresoftkeymasterdevice.so
 # Wlan
 PRODUCT_COPY_FILES += \
     vendor/motorola/ali/proprietary/vendor/lib/modules/wlan.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wlan.ko \
