@@ -439,7 +439,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/ali/proprietary/vendor/radio/qcril_database/upgrade/3_version_qcrildb.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/3_version_qcrildb.sql \
     vendor/motorola/ali/proprietary/vendor/radio/qcril_database/upgrade/4_version_qcrildb.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/4_version_qcrildb.sql \
     vendor/motorola/ali/proprietary/vendor/radio/qcril_database/upgrade/5_version_qcrildb.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/5_version_qcrildb.sql \
-    vendor/motorola/ali/proprietary/vendor/radio/qcril_database/upgrade/6_version_qcrildb.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/6_version_qcrildb.sql \ 
+    vendor/motorola/ali/proprietary/vendor/radio/qcril_database/upgrade/6_version_qcrildb.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/6_version_qcrildb.sql \
     vendor/motorola/ali/proprietary/vendor/lib/libsecureui.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecureui.so \
     vendor/motorola/ali/proprietary/vendor/lib/libspl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspl.so
 
